@@ -46,7 +46,6 @@
     color: var(--laranja);
 }
 
-
 .lista-menu__link{
   background: var(--azul-degrade);
   -webkit-background-clip: text;
@@ -55,6 +54,27 @@
   text-transform: uppercase;
 }
 
-.container__botao{
+.container__botao {
     display: none;
 }
+
+.container__titulo {
+    display: none;
+}
+
+@media screen and (win-widthpx: 1024px) {    
+}
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+}
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
